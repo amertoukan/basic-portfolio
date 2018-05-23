@@ -3,17 +3,27 @@ body{
     margin:0;
     padding:0;
     font-family:Arial, Helvetica, sans-serif;
+    height:100%;
+}
+html{
+    margin:0;
+    padding:0;
+    height:100%
 }
 header{
-    width:100%;
-    background-color:#fff;
-    overflow:auto;
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    background: #fff;
+    border-bottom:1px solid #666;
 }
 .heading{
+    margin:auto;
     width:960px;
     background-color:#fff;
     text-align:center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 .name{
     Position:relative;
@@ -21,19 +31,14 @@ header{
     background-color:#4aaaa5;
     float:left;
     color:#fff;
-    font-weight:bold;
-    
-    
+    font-weight:bold;   
 }
 .nav{
     float:right;
 }
 nav ul{
-   
     margin:0px;
     padding: 0 0 0 15px;
-   
-
 }
 nav ul li{
     display:inline-block;
@@ -55,18 +60,18 @@ nav ul li a{
     color:#4aaaa5;
     
 }
-
-.container{
+.container{clear:both;
+    margin:auto;
    width:960px;
-    float:right;
+    float:none;
     background-color:#fff;
     /*T R B L*/
-    margin:10px 100px 30px 100px;
+    margin:10px 0px 30px 0px;
     overflow:auto;
 }
 #photo{
    float:left;
-   overflow:auto;
+  
    padding-left:5px;
    position: relative;
 }
@@ -75,11 +80,15 @@ nav ul li a{
     line-height:0.5in;
 }
 footer{
-    Position:relative;
     clear:both;
+    Position:fixed;
+    bottom: 0;
+    width:100%;
     background-color:#999;
     color:white;
     text-align:center;
     padding: 20px; 
+    margin: 0;
     border-top: 10px solid #4aaaa5;
+    display:block;
 }
