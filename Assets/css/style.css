@@ -3,30 +3,36 @@ body{
     margin:0;
     padding:0;
     font-family:Arial, Helvetica, sans-serif;
-    width:960px;
-
 }
 header{
-    width:960px;
-    background:#ffffff;
-    padding:15 px 15px 0px 15px;
-    overflow: auto;
-
+    width:100%;
+    background-color:#fff;
+    overflow:auto;
 }
-header h1{
-
-    color:#ffffff;
-    background-color:#4aaaa5; 
-    display:inline;
+.heading{
+    width:960px;
+    background-color:#fff;
     text-align:center;
-    padding:20px 0px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+    Position:relative;
+    padding:20px;
+    background-color:#4aaaa5;
+    float:left;
+    color:#fff;
+    font-weight:bold;
+    
+    
+}
+.nav{
+    float:right;
 }
 nav ul{
    
     margin:0px;
     padding: 0 0 0 15px;
-    float:right;
+   
 
 }
 nav ul li{
@@ -37,26 +43,43 @@ nav ul li{
 nav ul li a{
     color:#777;
     text-decoration-style: none;
-}
-h2{
     text-align:center;
 }
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.title{
+    text-align:left;
+    color:#4aaaa5;
+    
+}
+
 .container{
-    width:960px;
-    margin:0px auto;
+   width:960px;
+    float:right;
+    background-color:#fff;
+    /*T R B L*/
+    margin:10px 100px 30px 100px;
+    overflow:auto;
 }
 #photo{
    float:left;
+   overflow:auto;
+   padding-left:5px;
+   position: relative;
 }
-#main{ 
-    float:right;
+#main-content{ 
+   
+    line-height:0.5in;
 }
 footer{
+    Position:relative;
+    clear:both;
     background-color:#999;
     color:white;
     text-align:center;
-    width:960px;
-    padding: 20px;
-    clear:both;
+    padding: 20px; 
     border-top: 10px solid #4aaaa5;
 }
