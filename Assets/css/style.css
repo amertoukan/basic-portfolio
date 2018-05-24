@@ -17,7 +17,7 @@ header{
     background: #fff;
     border-bottom:1px solid #666;
 }
-.heading{
+.container{
     margin:auto;
     width:960px;
     background-color:#fff;
@@ -44,11 +44,13 @@ nav ul li{
     display:inline-block;
     list-style-type: none;
     padding: 5px 15px;
+    
 }
 nav ul li a{
     color:#777;
     text-decoration-style: none;
     text-align:center;
+    text-decoration-style: none;
 }
 .clearfix::after{
     content: "";
@@ -60,15 +62,15 @@ nav ul li a{
     color:#4aaaa5;
     
 }
-.container{clear:both;
+/*.container{clear:both;
     margin:auto;
    width:960px;
     float:none;
     background-color:#fff;
-    /*T R B L*/
+    /*T R B L*//*
     margin:10px 0px 30px 0px;
     overflow:auto;
-}
+}*/
 #photo{
    float:left;
   
