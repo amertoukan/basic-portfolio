@@ -3,25 +3,63 @@
 <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="././Assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="././Assets/css/style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 </head>
 <body>
-  <header>
-      <div class="container">
-
-      
-  
+<header>
+<div class="container">
+    <div class="nameBox">
+        <h4 class="name"> Amer T. </h4>
+    </div>
+    
+    <div class="navBox">
         <nav class="nav">
-                <ul>
+                <ul id="navTitle">
                     <li><a href="index.html">about</a></li>
                     <li><a href="portfolio.html">portfolio</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                 </ul>
-                </nav>
-            </div>
-        </header>
-    
+                     <li><a href="contact.html">contact</a></li>
+                </ul>
+        </nav>
+<div>
+                        
+</div>
+</header>
+                
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="./assets/images/budget+.jpg" alt="Budget+">
+        <div class="card-body">
+        <h5 class="card-title">Budget+</h5>
+            <p class="card-text">By displaying motivational quotes, goal setting, and the user's monthly spending, Budget + aims to support achieving the user's budgeting goals.</p>
+            <button class = "btn btn-primary" onclick="window.location.href='https://polar-chamber-37107.herokuapp.com/'">Deployed</button> 
+            <button class = "btn btn-secondary" onclick="window.location.href='https://github.com/anneventures/FinalProject'">Github</button>
+        </div>
+        </div>
+        
+        <div class="card">
+          <img class="card-img-top"  src="./assets/images/chatFlight.jpg"  alt="Card image cap">
+          <div class="card-body" >
+            <h5 class="card-title">chatFlight</h5>
+            <p class="card-text">chatFlight allows users to book flights, and check on arriving and departing flights.</p>
+            <button class = "btn btn-primary" onclick="window.location.href='https://chatflight.herokuapp.com/'">Deployed</button> 
+            <button class = "btn btn-secondary" onclick="window.location.href='https://github.com/seppar93/chatFlight'">Github</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/findAWay.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Find-A-Way</h5>
+            <p class="card-text">Find-A-Way assists users to plan their trip by comparing the cost of driving to their distination versus taking an Uber.</p>
+            <button class = "btn btn-primary" onclick="window.location.href='https://tparksjr.github.io/Find-A-Way/'">Deployed</button> 
+            <button class = "btn btn-secondary" onclick="window.location.href='https://github.com/TParksJr/Find-A-Way'">Github</button>
+          </div>
+        </div>
+      </div>
+
+      <footer class = 'footer'>Copyright 2018©</footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./assets/js/index.js"></script>
 </html>
