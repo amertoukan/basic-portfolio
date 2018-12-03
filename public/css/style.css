@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/background.jpg");
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    height:100%;
+}
+html{
+    margin:0;
+    padding:0;
+    height:100%
+}
+header{
+    background: #191970;
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    border-bottom:1px solid #666;
+}
+
+.nav{
+    margin-top:20px;
+    float:right;
+}
+
+.name{
+    Position:relative;
+    padding:20px;
+    background-color:#4aaaa5;
+    float:left;
+    color:#fff;
+    font-weight:bold;   
+}
+nav ul{
+    margin:0px;
+    padding: 0 0 0 15px;
+}
+nav ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    
+}
+nav ul li a{
+    color:white;
+    text-decoration-style: none;
+}
+nav ul li a:hover{
+    color:gold;
+    text-decoration-style: none;
+}
+.container{
+    margin:auto;
+    width:960px;
+    text-align:left;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-content{
+    line-height:0.5in;
+    overflow:auto;
+}
+
+.clearfix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.title{
+    padding: 10px;
+    text-align:left;
+    color:#4aaaa5;
+   
+    
+}
+#photo{
+   float:left;
+   height:140px;
+   width:130px;
+   padding:5px;
+   position: relative;
+}
+.card-deck .card{
+    background: none;
+    color:black;
+}
+
+footer{
+    bottom: 0;
+    width:100%;
+    color:white;
+    text-align:center;
+    padding: 20px; 
+    margin: 0;
+    border-top: 10px solid #191970;
+    display:block;
+}

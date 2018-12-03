@@ -1,0 +1,3 @@
+/*
+This page will be benificial at some point when I link a database. Unless i go decide to go the mongoose route
+*/
